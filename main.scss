@@ -68,8 +68,8 @@ body,
 div,
 textarea,
 .level2 {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
-        'Open Sans', 'Helvetica Neue', sans-serif !important;
+    font-family: 'SF Pro Display', 'Quattro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+        Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
 }
 
 iframe {
@@ -346,43 +346,40 @@ strong {
 }
 
 // Dark Mode
-
-@media (prefers-color-scheme: dark) {
-    body {
-        background: hsl(113, 0%, 9%) !important;
-    }
-    #app {
-        // filter: invert(1) hue-rotate(180deg) !important;
-    }
-    img,
-    div#buffer,
-    .bp3-portal,
-    .intercom-app,
-    .loading-astrolabe,
-    .bp3-dialog,
-    .twitter-tweet,
-    iframe {
-        // filter: invert(1) hue-rotate(180deg) !important;
-    }
-    .roam-highlight {
-        background-color: hsl(51, 50%, 18%) !important;
-    }
-    .bp3-overlay-backdrop {
-        background-color: rgba(0, 0, 0, 0.7) !important;
-    }
-    :root {
-        --font-color: hsl(205, 0%, 98%);
-        --font-color-lighter: hsl(0, 0%, 50%);
-        --font-color-placeholder: hsl(0, 0%, 36%);
-        --link-color: hsl(203, 62%, 55%);
-        --selection-color: hsl(203, 56%, 40%);
-        --border-color: rgba(255, 255, 255, 0.07);
-        --subtle-border-color: rgba(255, 255, 255, 0.05);
-        --main-background-color: hsl(0, 0%, 4%);
-        --body-background-color: hsl(0, 0%, 10%);
-        --popup-background-color: hsl(0, 0%, 14%);
-        --reference-item-background: hsl(0, 0%, 8%);
-        --brackets-color: rgba(255, 255, 255, 0.3);
-        --empty-text-color: hsl(203, 5%, 70%);
-    }
+body {
+    background: hsl(113, 0%, 9%) !important;
+}
+#app {
+    // filter: invert(1) hue-rotate(180deg) !important;
+}
+img,
+div#buffer,
+.bp3-portal,
+.intercom-app,
+.loading-astrolabe,
+.bp3-dialog,
+.twitter-tweet,
+iframe {
+    // filter: invert(1) hue-rotate(180deg) !important;
+}
+.roam-highlight {
+    background-color: hsl(51, 50%, 18%) !important;
+}
+.bp3-overlay-backdrop {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+}
+:root {
+    --font-color: hsl(205, 0%, 98%);
+    --font-color-lighter: hsl(0, 0%, 50%);
+    --font-color-placeholder: hsl(0, 0%, 36%);
+    --link-color: hsl(203, 62%, 55%);
+    --selection-color: hsl(203, 56%, 40%);
+    --border-color: rgba(255, 255, 255, 0.07);
+    --subtle-border-color: rgba(255, 255, 255, 0.05);
+    --main-background-color: hsl(0, 0%, 4%);
+    --body-background-color: hsl(0, 0%, 10%);
+    --popup-background-color: hsl(0, 0%, 14%);
+    --reference-item-background: hsl(0, 0%, 8%);
+    --brackets-color: rgba(255, 255, 255, 0.3);
+    --empty-text-color: hsl(203, 5%, 70%);
 }
